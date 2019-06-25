@@ -1,0 +1,9 @@
+data_dir: './data/classification'
+vocab:
+  word:
+    size: 50000
+    special_tokens: ['pad', 'unk']
+    
+  char:
+    special_tokens: ['pad', 'unk']
+    embedding_dimension: 32
